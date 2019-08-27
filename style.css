@@ -1,0 +1,88 @@
+#fullbody {
+    background-color: #181818;
+}
+
+#header {
+	border-bottom: 5px solid black;
+    background: darkgray;
+    padding: 5px 40px;
+
+}
+
+#pic img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: lightgray;
+    margin: 30px auto;
+}
+
+#mainbody {
+    padding: 0 40px;
+    
+}
+
+* {
+    box-sizing: border-box
+}
+  
+.container {
+    width: 75%;
+    background-color: #ddd;
+    
+    margin-left: 20px;
+}
+  
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+  
+.html {
+    width: 80%;
+    background-color: #181818
+}
+  
+.css {
+    width: 50%;
+    background-color: dimgrey;
+}
+  
+.git {
+    width: 30%;
+    background-color: darkslategrey;
+}
+
+div {
+    border-radius: 50px;
+    padding-bottom: 5px;
+}
+
+p, h1, h2, h4, ul, li {
+    color:black;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+    
+a {
+    color: darkslategray;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+section {
+	border-bottom: 1px solid lightgoldenrodyellow;
+    padding-bottom: 5px;
+    
+}
+
+a:hover {
+        font-weight: bold;
+        
+}
