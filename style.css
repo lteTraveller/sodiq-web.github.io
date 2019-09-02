@@ -18,7 +18,7 @@
 }
 
 #cv {
-	width: 90%;
+	width: 60%;
 	max-width: 800px;
 	background: lightgray;
     margin: 30px auto;
@@ -30,7 +30,8 @@
 }
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   
 .container {
@@ -68,12 +69,12 @@ div {
 
 p, h1, h2, h4, ul, li {
     color:black;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+   
 }
     
 a {
     color: darkslategray;
-    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    
 }
 
 section {
@@ -85,4 +86,37 @@ section {
 a:hover {
         font-weight: bold;
         
+}
+
+article {
+    border-top: 20px solid #181818;
+	width: 800px;
+    margin: 30px auto;
+    padding: 0 40px;
+    background: darkgray;
+    border-radius: 100px;
+    text-align: center;
+}
+
+button {
+    background-color: darkslategrey;
+    color: #181818;
+    border: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin:10px auto;
+    
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
 }
