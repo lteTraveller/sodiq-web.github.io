@@ -1,0 +1,122 @@
+#fullbody {
+    background-color: #181818;
+}
+
+#header {
+	border-bottom: 5px solid black;
+    background: darkgray;
+    padding: 5px 40px;
+
+}
+
+#pic img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#cv {
+	width: 60%;
+	max-width: 800px;
+	background: lightgray;
+    margin: 30px auto;
+}
+
+#mainbody {
+    padding: 0 40px;
+    
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+.container {
+    width: 75%;
+    background-color: #ddd;
+    
+    margin-left: 20px;
+}
+  
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+  
+.html {
+    width: 80%;
+    background-color: #181818
+}
+  
+.css {
+    width: 50%;
+    background-color: dimgrey;
+}
+  
+.git {
+    width: 30%;
+    background-color: darkslategrey;
+}
+
+div {
+    border-radius: 50px;
+    padding-bottom: 5px;
+}
+
+p, h1, h2, h4, ul, li {
+    color:black;
+   
+}
+    
+a {
+    color: darkslategray;
+    
+}
+
+section {
+	border-bottom: 1px solid lightgoldenrodyellow;
+    padding-bottom: 5px;
+    
+}
+
+a:hover {
+        font-weight: bold;
+        
+}
+
+article {
+    border-top: 20px solid #181818;
+	width: 800px;
+    margin: 30px auto;
+    padding: 0 40px;
+    background: darkgray;
+    border-radius: 100px;
+    text-align: center;
+}
+
+button {
+    background-color: darkslategrey;
+    color: #181818;
+    border: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin:10px auto;
+    
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
