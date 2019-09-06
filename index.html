@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>My Updated CV (Task 3)</title>
+        <title>Sodiq Ayobami Zubair</title>
 
         <meta name="viewport" content="width=device-width"/>
         <meta name="description" content="The Curriculum Vitae of Sodiq Zubair."/>
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="style.css">
 </head>
-    <body id="fullbody">
-        <!--div encompassing body as a whole-->
+    <body class="fullbody">
+        <!--div encompassing content-->
     <div id="cv">
         <div id="header">
                 <div id="pic">
@@ -28,7 +28,7 @@
                 <a href="#experience-header">Experience</a>
                 <a href="#skills-header">Skills</a>
                 <a href="#reference-header">References</a>
-                <a href="#contact">Contact Me Here</a>
+                <a href="contact-me.html" target="_blank">Contact Me Here</a>
 
             </nav>
         </div>
@@ -152,35 +152,20 @@
              <!--div for references-->       
             <div>
                     <h2 id="reference-header">REFERENCES</h2>
-                    <p>Available on request</p>
+                    <p>Available on request</p><br>
+                    <a href="#cv">Back To Top</a>
+
             <!--End of div for references-->
             </div>
         <!--End of div for sections-->
         </div>
-        <!-- End of div encompassing body as a whole-->
-
+        <!-- End of div encompassing content-->
     </div>
-        <!--Beginning of contact form-->
-        
-                <article class="contactme">
-                    <h2 id="contact"><em>CONTACT ME</em></h2>
-                    <form name="contact-me" action="https://formspree.io/ayobamisodiq68@gmail.com" method="POST" target="_blank"
-                        <label for="name">Name: </label> 
-                        <input id="name" name="name" type="text" placeholder="Full Name" pattern="[A-Za-z]{}" required minlength="4"><br>
-                        <label for="email">Email: </label> 
-                        <input id="email" name="email" type="email" placeholder="Email" required><br>
-                        <label for="title">Title: </label> 
-                        <input id="title" name="title" type="text" placeholder="Subject of Message" required><br>
-                        <label for="message">Message: </label> 
-                        <textarea id="message" name="message" type="text"  placeholder="Leave Your Message Here" required minlength="20" rows="5"></textarea><br>
-                        <button type="submit">Submit</button>
-                    </form>
-                </article>
-        
-        <!--end of  contact form-->
-        <footer>
+       
+    <footer class="footer">
             &copy; Sodiq Ayobami Zubair 2019
-        </footer>
+    </footer>
+        
 
     </body>
 </html>

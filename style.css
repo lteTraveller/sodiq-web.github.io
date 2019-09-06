@@ -1,5 +1,13 @@
-#fullbody {
-    background-color: #181818;
+
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
 #header {
@@ -21,7 +29,8 @@
 	width: 60%;
 	max-width: 800px;
 	background: lightgray;
-    margin: 30px auto;
+    min-height: 100%;
+    margin: 30px auto 50px; /* the bottom margin is the negative value of the footer's height */
 }
 
 #mainbody {
@@ -29,11 +38,11 @@
     
 }
 
-* {
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.fullbody {
+    background-color: #181818;
 }
-  
+
 .container {
     width: 75%;
     background-color: #ddd;
@@ -83,36 +92,49 @@ section {
     
 }
 
-a:hover {
+a:hover, button:hover {
         font-weight: bold;
+        cursor: pointer;
         
 }
 
-article {
-    border-top: 20px solid #181818;
-	width: 800px;
-    margin: 30px auto;
-    padding: 0 40px;
+.contactme {
+   	width: 800px;
+    padding: 20px 40px;
     background: darkgray;
-    border-radius: 100px;
     text-align: center;
+    min-height: 100%;
+    margin: 30px auto 50px; /* the bottom margin is the negative value of the footer's height */
 }
 
 button {
     background-color: darkslategrey;
     color: #181818;
-    border: white;
+    border: darkcyan;
     border-radius: 5px;
     padding: 15px;
     margin: 10px auto;
+    width: 200px;
     font-weight: bold;
 }
 
-input {
-    margin-bottom: 10px;
-    border-radius: 5px;
-    margin:10px auto;
-    
+input, textarea {
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px; 
+}
+
+input:hover, textarea:hover {
+    border: 1px solid darkcyan;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+}
+.push, .footer {
+    height: 50px; /* .push must be the same height as .footer */ 
 }
 
 footer {

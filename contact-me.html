@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body class="fullbody">
+     <!--Beginning of contact form-->
+        
+     <div class="contactme">
+        <h2 id="contact"><em>Contact Me</em></h2>
+        <form name="contact-me" action="contact-me.php" method="POST" target="_blank">
+            <p>
+                <label for="name">Name: </label> 
+                <input id="name" name="name" type="text" placeholder="Full Name" pattern="[A-Za-z]{}" required minlength="4">
+            </p>
+            <p>
+                <label for="email">Email: </label> 
+                <input id="email" name="email" type="email" placeholder="Email" required>
+            </p>
+            <p>
+                <label for="title">Title: </label> 
+                <input id="title" name="title" type="text" placeholder="Subject of Message" required>
+            </p>
+            <p>
+                    <label for="message">Message: </label> 
+                    <textarea id="message" name="message" type="text"  placeholder="Leave Your Message Here" required minlength="20" rows="5"></textarea>
+            </p>
+            <p>
+                <button type="submit" name="submit">Send</button>
+            </p>
+        </form>
+      <!--<div class="push"></div>-->  
+    </div>
+
+<!--end of  contact form-->
+        <footer class="footer">
+                    &copy; Sodiq Ayobami Zubair 2019
+        </footer>
+    
+</body>
+</html>
